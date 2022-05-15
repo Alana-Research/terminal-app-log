@@ -9,7 +9,7 @@ import (
 func Info(a ...any) {
 	c := color.New(color.FgCyan)
 
-	c.Printf("INFOOOO:")
+	c.Printf("INFO:")
 	fmt.Println(a...)
 }
 
